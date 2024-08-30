@@ -1,0 +1,130 @@
+.table-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-bottom: 20px; /* Add some bottom margin */
+    position: relative;
+}
+
+.add-expense-button {
+    position: absolute;
+    right: 20px;
+    top: 20;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Add some space between button and table */
+}
+
+.expense-table th, .expense-table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.expense-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Full width of its container */
+    max-width: 200px; /* Adjust as needed */
+}
+
+.progress-bar .progress {
+    background-color: purple;
+    height: 8px;
+    border-radius: 4px;
+    flex-grow: 1;
+    margin-right: 8px;
+    transition: width 0.3s ease; /* Smooth transition for width changes */
+}
+
+.progress-bar .percentage {
+    font-size: 14px; /* Adjust font size as needed */
+    color: #000; /* Adjust color as needed */
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+
+
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.page-numbers {
+    display: flex;
+}
+
+.page-number {
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.page-number.active {
+    background-color: purple;
+    color: white;
+}
+.options-container button {
+    margin-right: 10px;
+}
+
+.options-container .MuiFormControl-root {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.options-container .react-datepicker-wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.options-container .react-datepicker__input-container input {
+    height: 30px;
+    width: 220px;
+    margin-top: 10px;
+}
+
+.options-container .MuiTextField-root {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+}
+.search-box {
+    width: 250px;
+    position: absolute;
+}
+.search-box .MuiInputBase-root {
+    height: 30px; /* Adjust height as needed */
+    margin-top: 10px;
+}
+
+.search-box .MuiOutlinedInput-input {
+    padding: 10px; /* Adjust padding to fit the new height */
+}
+
